@@ -1,2 +1,2 @@
 # weather
-Enter you city get the weather😉
+Enter your city get the weather😉
