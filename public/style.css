@@ -1,0 +1,46 @@
+body{
+text-align: center;
+background-image: linear-gradient(to right, #ADCCFE, #E7F0FD);
+
+}
+
+.upper-container{
+    font-family: 'Fugaz One', cursive;
+    font-size: larger;
+    padding: 10% 15% 2.5% 15%;
+    font-size:40px;
+
+}
+input[type=text] {
+    text-align: center;
+      padding: 8px 20px ;
+      margin: 2px 0 20px;
+      box-sizing: border-box;
+    } 
+
+    .btn {
+        background: #2169ad;
+        background-image: -webkit-linear-gradient(top, #2169ad, #2169ad);
+        background-image: -moz-linear-gradient(top, #2169ad, #2169ad);
+        background-image: -ms-linear-gradient(top, #2169ad, #2169ad);
+        background-image: -o-linear-gradient(top, #2169ad, #2169ad);
+        background-image: linear-gradient(to bottom, #2169ad, #2169ad);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
