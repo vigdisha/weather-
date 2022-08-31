@@ -12,11 +12,31 @@ background-image: linear-gradient(to right, #ADCCFE, #E7F0FD);
 
 }
 input[type=text] {
-    text-align: center;
-      padding: 8px 20px ;
-      margin: 2px 0 20px;
+    /* text-align: center;
+    margin: 2px 0 20px;
+    box-sizing: border-box; */
+    padding: 8px 20px 25px;
+      
+      width: 130px;
       box-sizing: border-box;
+      border: 2px solid rgb(0, 8, 53);
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+    
+      background-position: 10px 10px; 
+      background-repeat: no-repeat;
+       padding: 12px 20px 15px 40px; 
+      -webkit-transition: width 0.2s ease-in-out;
+      transition: width 0.2s ease-in-out;
+      margin-bottom: 18px;
+      /* svg file */
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
     } 
+    input[type=text]:focus {
+      width: 50%;
+    }
+    
 
     .btn {
         background: #2169ad;
@@ -33,6 +53,8 @@ input[type=text] {
         font-size: 18px;
         padding: 10px 20px 10px 20px;
         text-decoration: none;
+        
+      
       }
       
       .btn:hover {
@@ -43,4 +65,9 @@ input[type=text] {
         background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
         background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
         text-decoration: none;
+      }
+
+      .heading{
+        text-align: center;
+        padding-top: 10%;
       }
