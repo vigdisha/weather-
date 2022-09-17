@@ -12,6 +12,6 @@ Open your browser at http://localhost:3000
 
 # API REFERENCE
 
-OpenWeatherMap: Сurrent weather and forecasthttps://openweathermap.org
+OpenWeatherMap:https://openweathermap.org
 
 
