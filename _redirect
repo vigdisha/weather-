@@ -1,2 +1,0 @@
-/api/* https://api.openweathermap.org/data/2.5/weather?q=" + query+ "&appid="+apikey + "&units="+units/:splat 200
-/* /index.html 200
