@@ -1,5 +1,5 @@
 # About 
-Provides the wetaher of requested city.
+Provides the weather of requested city.
 
 # Run the solution
 Run npm install
